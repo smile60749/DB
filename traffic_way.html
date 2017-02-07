@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新增交通方式</title>
+<body background="pic/bg6.png" text="brown">
+<h1><marquee align ="top" direction="right" behavior="alternate" width="50%" scrollmount="3" bgcolor="#FFECF5">新增交通方式</marquee></h1>
+<form action="traffic_add.php" method="post" enctype="multipart/form-data">
+<br><br><br><br><br><br>
+<h2>
+<table border="0">
+<tr><td>出發縣市：
+</td><td><select name="departure_city">
+	 <option value="基隆">基隆
+	 <option value="台北">台北
+	 <option value="桃園">桃園
+	 <option value="宜蘭">宜蘭
+	 <option value="花蓮">花蓮
+	 <option value="台東">台東
+	 <option value="新竹">新竹
+	 <option value="苗栗">苗栗
+	 <option value="台中">台中
+	 <option value="彰化">彰化
+	 <option value="南投">南投
+	 <option value="雲林">雲林
+	 <option value="台南">台南
+	 <option value="嘉義">嘉義
+	 <option value="高雄">高雄
+	 <option value="屏東">屏東
+	 <option value="澎湖">澎湖
+	 <option value="金門">金門
+	 <option value="馬祖">馬祖
+ </select></td></tr>
+<tr><td>目的地縣市:</td><td>
+<select name="arrive_city">
+	 <option value="基隆">基隆
+	 <option value="台北">台北
+	 <option value="桃園">桃園
+	 <option value="宜蘭">宜蘭
+	 <option value="花蓮">花蓮
+	 <option value="台東">台東
+	 <option value="新竹">新竹
+	 <option value="苗栗">苗栗
+	 <option value="台中">台中
+	 <option value="彰化">彰化
+	 <option value="南投">南投
+	 <option value="雲林">雲林
+	 <option value="台南">台南
+	 <option value="嘉義">嘉義
+	 <option value="高雄">高雄
+	 <option value="屏東">屏東
+	 <option value="澎湖">澎湖
+	 <option value="金門">金門
+	 <option value="馬祖">馬祖
+ </select></td></tr>
+<tr><td>交通工具:</td>
+<td><select name="traffic_tool">
+ <option value="汽車">汽車
+ <option value="機車">機車
+ <option value="火車">火車
+ <option value="飛機">飛機
+ <option value="火箭">火箭
+ <option value="竹蜻蜓">竹蜻蜓
+ <option value="甲鐵城">甲鐵城
+ <option value="腳">腳
+ <option value="鐵馬">鐵馬
+ <option value="馬">馬
+ <option value="飛碟">飛碟
+ <option value="任意門">任意門
+ <option value="船">船
+</select>
+</td></tr>
+<tr><td>花費時間:</td><td><input type="text" name="time"></td></tr>
+<tr><td>費用:</td><td><input type="text" name="cost"></td></tr>
+</table>
+</h2>
+<input type="submit" value=" " style="background-image:url(pic/bt11.jpg);width:100px;height:56px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value=" " style="background-image:url(pic/bt10.jpg);width:100px;height:56px;">
+</form>
+</body>
+</html>
